@@ -1,0 +1,20 @@
+.btn {
+  background-color: rgba(84, 209, 84, 1);
+  border-radius: 120px;
+  padding: 10px 20px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: ease .7s all;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(39, 168, 39, 1);
+}
+
+.btn.green:hover {
+  background-color:#333333;
+}

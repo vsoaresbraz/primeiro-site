@@ -1,0 +1,30 @@
+@import url('../style.css');
+#header.page-produto {
+  background-image: url("../../images/background-produto.jpg");
+}
+
+#download {
+  color: #c6c5c1;
+  background-color: #f9f6f1;
+}
+
+.btn {
+  padding: 15px 50px;
+  font-size: 18px;
+}
+
+#funcionalidades .material-icons {
+  float: left;
+  height: 200px;
+  font-size: 60px;
+  margin-right: 20px;
+}
+
+#funcionalidades h3 {
+    margin-top: 0;
+}
+@media (max-width: 992px) {
+  #header{
+    height: 500px;
+  }
+}

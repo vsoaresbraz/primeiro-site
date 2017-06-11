@@ -1,0 +1,38 @@
+h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+
+h2:after {
+  content: '';
+  display: block;
+  background-color: rgb(130, 130, 130);
+  margin: 5px auto -10px auto;
+  width: 50px;
+  height: 2px;
+}
+
+h3 {
+  margin: 10px;
+  font-size: 25px;
+}
+
+.title {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+}
+
+.subtitle {
+  color: rgb(175, 175, 175);
+  margin-bottom: 50px;
+}
+
+.text-left {
+  text-align: left;
+}
